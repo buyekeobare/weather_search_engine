@@ -1,10 +1,20 @@
 function search(event) {
   event.preventDefault();
   let searchInputElement = document.querySelector("#search-input");
-  let cityElement = document.querySelector("#current-city");
-  cityElement.innerHTML = searchInputElement;
+  let city = searchInputElement;
+
+  let apiKey = "my_api_key";
+  let apiUrl = `https://api.shecodes.io/weather/v1/current?query=${city}}&key=${apiKey}&units=metric`;
+
+  axios.get(apiUrl).then(displayTemperature);
 
 } 
+
+function displayTemperature(response) {
+  console.log(response);
+}
+
+
 
 function formatDate(date) {
   let minutes = date.getMinutes();
