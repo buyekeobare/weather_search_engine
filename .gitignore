@@ -1,0 +1,18 @@
+# Node modules directory
+node_modules/
+
+# Build output directory (commonly `dist` or `build`)
+dist/
+
+# Logs
+*.log
+
+# Temporary files and folders
+tmp/
+.temp/
+
+# Parcel cache
+.cache/
+
+# .env files
+.env
