@@ -1,5 +1,10 @@
 # Weather Search Engine
 
-## Task
+This project is a web application that allows users to search for weather information by city.
+It provides current weather data as well as forecasts for different locations.
 
-When a user searches for a city (example: Sydney), it should display the name of the city on the result page and the current temperature of the city.
+## Live Demo
+
+You can access the live version of the Weather Search Engine by clicking the link below:
+
+[Weather Search Engine](https://buyekeobare-weather-search-engine.netlify.app/)
